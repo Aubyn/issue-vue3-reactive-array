@@ -8,17 +8,17 @@ const cars = ['car1', 'car2'],
 provide('cars', cars);
 provide('pens', pens);
 
+/* issue: assignment 1 */
 /* const { receivedData, receiveHandler } = {
   receivedData: reactive([]),
   receiveHandler: function (arg1, arg2) {
     receivedData.push([arg1, arg2]);
   }
 }; */
+/* issue: assignment 2 */
 const receivedData = reactive([]);
 const receiveHandler = function (arg1, arg2) {
   receivedData.push([arg1, arg2]);
-  console.log(receivedData)
-  // receivedData.splice(0, receivedData.length, arg1, arg2);
 };
 
 watchEffect(() => {

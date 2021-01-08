@@ -45,8 +45,8 @@ const emit = defineEmit(['receive']);
       <header>
         <h3 class="my-2 text-gray-400 text-xl">slot</h3>
       </header>
-      <slot>default</slot>
       <slot name="name">lack name</slot>
+      <slot>default</slot>
     </section>
     <section class="mx-8 my-8 border-2 border-solid border-gray-600">
       <header>
