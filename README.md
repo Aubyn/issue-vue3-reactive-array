@@ -1,5 +1,11 @@
 # issue-vue3-reactive-array
 
+## issue state
+
+https://github.com/vuejs/vue-next/issues/2972
+
+`replied`: bug of `<script setup>`
+
 ## run
 
 ```
@@ -25,7 +31,7 @@ https://github.com/Aubyn/issue-vue3-reactive-array.git
 3. DOM view didn't update(`why`) as `receivedData` updated
 4. use `assignment 1`
 5. click `emit` button
-6. DOM view updates as `receivedData` updated(`why)
+6. DOM view updates as `receivedData` updated(`why`)
 
 ```javascript
 /* assignment 1 */
